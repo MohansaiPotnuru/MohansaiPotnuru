@@ -1,19 +1,31 @@
-# Hi, I'm Mohan Sai
+# Hi, I'm Mohan Sai 👋
 
-**Embedded Systems | IoT | Digital Design**
+**Embedded Systems · IoT · Digital / ASIC Design**
 
-I build practical projects across embedded firmware, connected devices, and digital hardware design. My interests include ESP32, RISC-V, automation, and AI-driven solutions.
+I build embedded firmware, connected devices and digital hardware, from microcontroller drivers and ESP32 IoT nodes to RISC-V SoCs taken through an open-source RTL-to-GDSII flow. I care about code that is tested, documented and runs on real hardware.
 
-## Featured projects
+## 🔧 Featured projects
 
-- **[RISC-V UART SoC](https://github.com/MohansaiPotnuru/riscv-uart-sky130-soc)** — A 32-bit RISC-V SoC integrating PicoRV32 with a memory-mapped UART, implemented in Verilog and taken through an OpenLane flow targeting SkyWater 130 nm.
-- **[ESP32 Smart Home Automation](https://github.com/MohansaiPotnuru/SmartHomeAutomation)** — Modular ESP32 automation with sensor monitoring, MQTT, RFID access control, and a local dashboard.
-- **[Air Quality Prediction](https://github.com/MohansaiPotnuru/Air-Quality-Prediction-by-AITCE)** — An AI-based project for analyzing environmental data and predicting air quality.
+| Project | What it is | Highlights |
+|---|---|---|
+| **[RISC-V UART SoC (SKY130)](https://github.com/MohansaiPotnuru/riscv-uart-sky130-soc)** | 32-bit PicoRV32 SoC with boot ROM and memory-mapped UART, hardened with OpenLane on the SkyWater 130 nm PDK | Verilog · self-checking testbench · Yosys/OpenLane · CI |
+| **[ESP32 Smart Home Automation](https://github.com/MohansaiPotnuru/SmartHomeAutomation)** | Modular home-automation firmware: environment and gas/smoke safety sensing, RFID door access, energy metering | MQTT · web dashboard · OLED · non-blocking design · CI on ESP32 cores 2.x/3.x |
+| **[AQI Prediction](https://github.com/MohansaiPotnuru/Air-Quality-Prediction-by-AITCE)** | ML model predicting daily Air Quality Index for 26 Indian cities (AICTE internship) | scikit-learn pipelines · Random Forest R² 0.91 |
+| **[MRAA on RuggedBoard-A5D2X](https://github.com/MohansaiPotnuru/MRAA---RuggedBoard---A5D2X)** | GPIO / ADC / PWM / SPI / Wi-Fi guides and Python examples for an industrial SAMA5D2 Linux board | Embedded Linux · Yocto · libmraa |
+| **[50 Advanced C & Python Programs](https://github.com/MohansaiPotnuru/C_-_Python_Programs)** | 100 self-testing programs on bitwise tricks, pointers, memory, metaprogramming and concurrency | GCC/Clang + sanitizers · Python 3.10–3.13 CI |
 
-## Areas I work with
+## 🧰 Tech I work with
 
-`Embedded C/C++` · `ESP32` · `Verilog` · `RISC-V` · `IoT` · `Python` · `ASIC Design`
+| Area | Tools |
+|---|---|
+| Languages | C, C++, Python, Verilog |
+| MCUs & boards | STM32 (HAL, CubeMX/CubeIDE), ESP32 (Arduino/ESP-IDF), Microchip SAMA5D2 |
+| Embedded Linux | Yocto, libmraa, U-Boot |
+| Protocols | UART, SPI, I²C, PWM/ADC, MQTT, HTTP |
+| Digital design | RISC-V (PicoRV32), Icarus Verilog, Yosys, OpenLane / OpenROAD, SkyWater SKY130 |
+| Data & ML | pandas, scikit-learn, Jupyter |
+| Workflow | Git, GitHub Actions CI, unit testing |
 
-## Connect
+## 📫 Connect
 
 [LinkedIn](https://www.linkedin.com/in/mohan-sai-potnuru-0b274a299) · [All repositories](https://github.com/MohansaiPotnuru?tab=repositories)
