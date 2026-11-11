@@ -38,9 +38,9 @@ Bare-metal STM32F401 firmware that turns an IR sensor into a measurement instrum
 <td width="50%" valign="top">
 
 #### 🧬 [RISC-V UART SoC on SKY130](https://github.com/MohansaiPotnuru/riscv-uart-sky130-soc)
-32-bit **PicoRV32** SoC with boot ROM and memory-mapped UART, hardened **RTL → GDSII** with OpenLane on the SkyWater 130 nm PDK.
+32-bit **PicoRV32** SoC with boot ROM and memory-mapped UART, hardened **RTL → GDSII** with LibreLane on the SkyWater 130 nm PDK. **Warning-free signoff across 9 PVT/RC corners**: DRC, LVS, antenna, slew, cap and fanout all clean.
 
-`Verilog` `RISC-V` `OpenLane` `Yosys` `self-checking testbench`
+`Verilog` `RISC-V` `LibreLane` `Yosys` `9-corner STA` `self-checking testbench`
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ Self-testing programs on bit tricks, pointers, memory, metaprogramming and concu
 **Tools**<br>
 <img src="https://img.shields.io/badge/STM32CubeIDE-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32CubeIDE">
 <img src="https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white" alt="KiCad">
-<img src="https://img.shields.io/badge/OpenLane_·_Yosys-1F6FEB?style=flat-square" alt="OpenLane and Yosys">
+<img src="https://img.shields.io/badge/LibreLane_·_Yosys-1F6FEB?style=flat-square" alt="LibreLane and Yosys">
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
