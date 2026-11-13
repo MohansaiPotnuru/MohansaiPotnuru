@@ -7,6 +7,7 @@
 </p>
 
 <p align="center">
+  <a href="https://mohansaipotnuru.github.io/"><img src="https://img.shields.io/badge/Portfolio-mohansaipotnuru.github.io-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>
   <a href="https://www.linkedin.com/in/mohan-sai-potnuru-0b274a299"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <img src="https://img.shields.io/badge/Kaumodaki_NexusGrid-Embedded_&_IoT-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="Kaumodaki NexusGrid">
   <img src="https://img.shields.io/badge/IETE_Student_Forum-Chairperson-8A2BE2?style=for-the-badge" alt="IETE Student Forum Chairperson">
@@ -220,5 +221,5 @@ Self-testing programs on bit manipulation, pointers, memory layout, function poi
 ---
 
 <p align="center">
-  📫 Reach me on <a href="https://www.linkedin.com/in/mohan-sai-potnuru-0b274a299">LinkedIn</a> · browse <a href="https://github.com/MohansaiPotnuru?tab=repositories">all repositories</a>
+  🌐 <a href="https://mohansaipotnuru.github.io/">Portfolio</a> · 📫 reach me on <a href="https://www.linkedin.com/in/mohan-sai-potnuru-0b274a299">LinkedIn</a> · browse <a href="https://github.com/MohansaiPotnuru?tab=repositories">all repositories</a>
 </p>
