@@ -30,7 +30,7 @@
 | Domain | What I actually do | Proof |
 |---|---|---|
 | **Bare-metal firmware** | Cortex-M4 register-level drivers, timer input capture for µs edge timing, ISR→main deferred work, CRC-protected wear-levelled flash config | [IRSense](https://github.com/MohansaiPotnuru/IRSense-NUCLEO-F401RE) |
-| **RTOS & real-time** | Preemptive priority scheduling, task/ISR split, queues, semaphores, mutexes and priority inversion, timers, stack and timing budgets (2-month RTOS internship) | IRSense scheduler, RTOS internship (CSC India / APSCHE) |
+| **RTOS & real-time** | FreeRTOS task-set design with rate-monotonic priorities, response-time analysis, ISR→task deferral via stream buffers and event groups, mutexes with priority inheritance, zero-heap static allocation, watchdog supervision | [rtos-condition-monitor](https://github.com/MohansaiPotnuru/rtos-condition-monitor), RTOS internship (CSC India / APSCHE) |
 | **IoT & connectivity** | ESP32 Wi-Fi + MQTT with echo-loop-safe topic design, web dashboards, RFID, energy metering, BLE, 4G LTE / GPS | [SmartHomeAutomation](https://github.com/MohansaiPotnuru/SmartHomeAutomation), DRE-MachGuard |
 | **Digital design & VLSI** | Verilog SoC integration (PicoRV32, boot ROM, MMIO UART), self-checking testbenches, synthesis, floorplan, CTS, routing, **multi-corner STA**, DRC / LVS / antenna signoff | [RISC-V SoC on SKY130](https://github.com/MohansaiPotnuru/riscv-uart-sky130-soc) |
 | **Embedded Linux** | Yocto-based SAMA5D2 board bring-up with libmraa: GPIO, ADC, PWM, SPI, Wi-Fi | [MRAA RuggedBoard](https://github.com/MohansaiPotnuru/MRAA---RuggedBoard---A5D2X) |
@@ -42,6 +42,16 @@
 ### 🚀 Featured projects
 
 <table>
+<tr>
+<td colspan="2" valign="top">
+
+#### ⏱️ [rtos-condition-monitor: FreeRTOS on STM32F401](https://github.com/MohansaiPotnuru/rtos-condition-monitor)
+Condition-monitoring node with **5 analysed tasks** (exact response-time analysis at boot, using budgeted or *measured* WCETs), **zero heap**, a supervisor that feeds the IWDG only while every task is alive, **fault records that survive reset** with fault injection, and COBS/CRC telemetry. CI runs ASan/UBSan unit tests, cppcheck and a **QEMU boot test** of the firmware on every push.
+
+`FreeRTOS V11` `C` `Cortex-M4F` `RTA` `QEMU CI` `24k+ test checks`
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -193,7 +203,7 @@ Self-testing programs on bit manipulation, pointers, memory layout, function poi
 
 ### 🔭 Currently working on
 
-- ⏱️ FreeRTOS on STM32: task-set design with rate-monotonic priorities, response-time analysis and watchdog supervision
+- ⏱️ Validating [rtos-condition-monitor](https://github.com/MohansaiPotnuru/rtos-condition-monitor) on the NUCLEO board: measured WCETs vs. budgets, watchdog and fault-recovery tests
 - 🧬 Next SoC revision: SPI/GPIO peripherals, a Wishbone bus and gate-level simulation against the signed-off netlist
 - 📶 Low-power IoT nodes: sleep-mode budgets, battery-life estimation and OTA-safe update layouts
 
